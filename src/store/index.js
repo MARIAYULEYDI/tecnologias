@@ -16,7 +16,7 @@ export default new Vuex.Store({
       footerConfig: {},
     },
     items: [{
-        text: 'Home',
+        text: 'Inicio',
         to: '/',
         icon: 'mdi-home',
         meta: {
@@ -25,7 +25,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Events',
+        text: 'Realidad Virtual',
         to: '/events',
         icon: 'mdi-assistant',
         meta: {
@@ -34,7 +34,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Team',
+        text: 'Realidad Aumentada',
         to: '/team',
         icon: 'mdi-account-settings',
         meta: {
@@ -43,7 +43,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Speakers',
+        text: 'Galeria',
         to: '/speakers',
         icon: 'mdi-assistant',
         meta: {
@@ -51,17 +51,17 @@ export default new Vuex.Store({
           showBottomNav: false
         },
       },
+     // {
+        //text: 'About',
+        //to: '/about',
+       // icon: 'mdi-comment-alert',
+        //meta: {
+         // showToolbar: true,
+          //showBottomNav: true
+      //  },
+     // },
       {
-        text: 'About',
-        to: '/about',
-        icon: 'mdi-comment-alert',
-        meta: {
-          showToolbar: true,
-          showBottomNav: true
-        },
-      },
-      {
-        text: 'Contact',
+        text: 'Contacto',
         to: '/contact',
         icon: 'mdi-contacts',
         meta: {
@@ -69,24 +69,24 @@ export default new Vuex.Store({
           showBottomNav: true
         },
       },
-      {
-        text: 'Partners',
-        to: '/partners',
-        icon: 'mdi-currency-usd',
-        meta: {
-          showToolbar: false,
-          showBottomNav: false
-        },
-      },
-      {
-        text: 'Blogs',
-        to: '/blogs',
-        icon: 'mdi-blogger',
-        meta: {
-          showToolbar: true,
-          showBottomNav: false
-        },
-      }
+     // {
+       // text: 'Partners',
+       // to: '/partners',
+        //icon: 'mdi-currency-usd',
+        //meta: {
+         // showToolbar: false,
+         // showBottomNav: false
+       // },
+     // },
+     // {
+       // text: 'Blogs',
+        //to: '/blogs',
+        //icon: 'mdi-blogger',
+        //meta: {
+        //  showToolbar: true,
+         // showBottomNav: false
+       // },
+     // }
     ]
   },
   getters: {

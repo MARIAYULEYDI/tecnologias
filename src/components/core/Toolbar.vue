@@ -30,7 +30,7 @@
         style="text-decoration:none;font-size:110%"
         :class="this.$vuetify.theme.dark?'whiteText':'blackText'"
       >
-      {{config.generalConfig.shortName || config.generalConfig.name || ""}}</router-link>
+      Reality</router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 
@@ -47,7 +47,7 @@
         :to="link.to"
         class="google-font"
         @click="onClick($event, link)"
-        style="text-transform: capitalize;"
+        style="text-transform: capitalize; color:#"
         >{{ link.text }}</v-tab
       >
     </v-tabs>

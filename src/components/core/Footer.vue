@@ -67,13 +67,13 @@
                 {{ item.linkname }}
             </v-btn>
             <v-spacer></v-spacer>
-           <span class="subtitle-2 google-font"> Based on Project 
+           <span class="subtitle-2 google-font"> Realidad Virtual/Realidad Aumentada 
           <a
             href="https://github.com/gdg-x/aura/"
             target="_blank"
             rel="noreferrer"
             style="text-decoration:none"
-          > Aura</a></span>
+          > Reality</a></span>
           </v-toolbar>
         </v-col>
       </v-row>
