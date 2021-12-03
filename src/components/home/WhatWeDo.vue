@@ -2,11 +2,11 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%">What we do?</p>
+        <p class="google-font mb-0" style="font-size:150%">¿Que aprenderas?</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
+        >Conoceras como es que se ha creado con el paso del tiempo la realidad virtual y la realidad aumentada, tambien sabras como, cuando y de quien fue esta idea, asi como en que nos beneficia toda esta inivaciòn ahora en nuestro mundo lleno de Tecnologìa.</p>
         <p class="google-font" style="font-size:95%">About different Google technologies</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
@@ -25,35 +25,36 @@
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-comment</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Talks</p>
+              <p class="google-font mt-2" style="font-size:130%">Reality</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get updated with the latest news and announcements</p>
+              >Bienvenidos a Reality donde encontraras informaciòn envace a como es que a cambiado nuestro mundo la Realidad Virtual/Realidad Aumentada.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Codelabs</p>
+              <p class="google-font mt-2" style="font-size:130%">Comentarios</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get hands-on experience and guidance from the community members</p>
+              >Nos interesa saber mas: Registrate y comenta que es lo que ati te gustaria saber hacerca de los temas de Realidad Virtual/Realidad Aumentada.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Campus Roadshows</p>
+              <p class="google-font mt-2" style="font-size:130%">Contacto</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Contactanos!! <br>
+              Realitytecnologias@gmail.com</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Live Viewing Parties</p>
+              <p class="google-font mt-2" style="font-size:130%">Vive Experiencias Nuevas</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Vive mas!! date un pequeño brack y empieza a interactuar con diferentes aplicaciònes que te ayudaran a llevar tu imaginaciòn al borde del limite. Imagina en grande!!</p>
             </v-col>
           </v-row>
         </v-container>

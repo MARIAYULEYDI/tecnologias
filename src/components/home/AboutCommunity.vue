@@ -4,11 +4,11 @@
       <v-col cols="12" md="12" lg="12" sm="12" class="pa-0" style="color:white">
         <div class="ma-1">
           <div class="pa-5">
-            <p class="google-font mb-0" style="font-size:150%">About {{config.generalConfig.name}}</p>
+            <p class="google-font mb-0" style="font-size:150%">Realidad Aumentada</p>
             <p
               class="google-font mt-0"
               style="font-size:95%"
-            >{{config.generalConfig.longDescription}}</p>
+            >La realidad Aumentada es una de las mejoras del mundo la cual te hace llegar a un mundo de diversas dimensiones te llenas de grandes experiencias y puedes ir desarrollando una gran parte de tu imaginacion mas alla de lo que puede o no ser real.</p>
             <v-btn
               v-if="checkExistance(config.generalConfig.meetupLink,0)"
               :href="config.generalConfig.meetupLink"
@@ -17,13 +17,13 @@
               color
               class="ma-0 google-font mb-2"
               style="border-radius:5px;text-transform: capitalize;color:white"
-            >Meetup Page</v-btn>&nbsp;
+            >Leer Màs</v-btn>&nbsp;
             <br />
             <router-link
               to="/about"
               class="google-font"
               style="text-decoration:none;color:white"
-            >See More about {{config.generalConfig.shortName || config.generalConfig.name}}</router-link>
+            >No olvides que puedes conocer mas sobre la realidad Aumentada y puedes interactuar con diversas Aplicaciones que te pueden ayudar a imaginar y realizar sueños.</router-link>
           </div>
         </div>
       </v-col>

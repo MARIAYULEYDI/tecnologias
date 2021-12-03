@@ -35,7 +35,7 @@
               target="_blank"
               small
               class="mr-1"
-            >#Realyti</v-chip>
+            >#Reality</v-chip>
             <!-- &nbsp; -->
           </span>
         </p>

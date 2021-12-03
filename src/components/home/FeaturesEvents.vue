@@ -4,16 +4,16 @@
       <v-col cols="12" md="12" lg="12" sm="12" class="mb-0">
         <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
           <b>
-            Our
-            <span style="color: #1a73e8;">Feature Event</span>
+            Conoce màs sobre
+            <span style="color: #1a73e8;">Realidad Virtual</span>
             &
-            <span style="color: #1a73e8;">Meetup</span>
+            <span style="color: #1a73e8;">Realidad Aumentada</span>
           </b>
         </p>
         <p
           class="google-font mt-0 mb-0"
           style="font-size:95%"
-        >Events are listed in reverse chronological order by date.</p>
+        >Vive nuevas experiencia, con las aplicaciones que hacen llevar tu imaginaciòn al limite</p>
       </v-col>
       <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 pt-0 pa-0">
         <v-container fluid class="py-0 my-0">

@@ -8,11 +8,11 @@
         :class="$vuetify.theme.dark == true?'darkModeCardFeatureEvent':'lightModeCardFeatureEvent'"
         class="pa-3 py-5 fill-height"
       >
-        <p class="google-font mb-0" style="font-size:90%">{{data.date | dateFilter}}</p>
-        <p class="google-font mb-0" style="font-size:120%">{{data.name | summary(15)}}</p>
-        <p class="google-font mb-0" style="font-size:90%">{{data.venue.name | summary(20)}}</p>
+        <p class="google-font mb-0" style="font-size:90%">03/12/2021</p>
+        <p class="google-font mb-0" style="font-size:120%">Reality</p>
+        <p class="google-font mb-0" style="font-size:90%">Abierto</p>
         <v-spacer></v-spacer>
-        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">See More</p>
+        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">Informaciòn acerca</p>
       </div>
     </template>
     <v-card
@@ -23,7 +23,7 @@
       :class="this.$vuetify.theme.dark == true?'grey darken-3':'white'"
     >
       <v-card-title class="px-5 py-5 google-font" style="background-position:right bottom;">
-        <p class="google-font mb-0" style="font-size:150%">{{data.name}}</p>
+        <p class="google-font mb-0" style="font-size:150%">Reality</p>
         <v-spacer></v-spacer>
         <v-tooltip bottom>
       <template v-slot:activator="{ on }">
@@ -37,14 +37,14 @@
       </v-card-title>
 
       <v-card-text class="pb-5 pt-0">
-        <p class="google-font mb-0" style="font-size:120%">{{data.date}}</p>
-        <p class="google-font mb-0" style="font-size:110%">{{data.venue.name}}</p>
-        <p class="google-font">{{data.time.starttime}} - {{data.time.endtime}}</p>
+        <p class="google-font mb-0" style="font-size:120%">03/12/21</p>
+        <p class="google-font mb-0" style="font-size:110%">Abierto</p>
+        <p class="google-font">1:00 - 22:00</p>
 
         <p class="google-font mb-0" style="font-size:95%">
-          <b>Description</b>
+          <b>Descripciòn</b>
         </p>
-        <p class="google-font mt-0" style="font-size:110%">{{data.des}}</p>
+        <p class="google-font mt-0" style="font-size:110%">Cada que empiezas a interactuar de manera mas eficas sobre estos temas empiezas aver que es lo de el futuro y como es que a mejorado con el tiempo conoce mas acerca de estos temas y dejame tus comentarios.  </p>
 
         <v-btn
           color="indigo"
@@ -53,7 +53,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Event Page</v-btn>
+        >Evento</v-btn>
 
         <v-btn
           color="#1a73e8"
@@ -63,7 +63,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Registration Link</v-btn>
+        >Registrate</v-btn>
         <v-btn
           color="pink"
           v-if="checkExistance(data.links.meetup,0)"
@@ -72,7 +72,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Meetup Page</v-btn>
+        >Galeria Imagenes</v-btn>
         <v-btn
           color="red"
           v-if="checkExistance(data.links.youtube,0)"
@@ -81,7 +81,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >YouTube Live</v-btn>
+        >YouTube</v-btn>
       </v-card-text>
 
       <v-divider></v-divider>

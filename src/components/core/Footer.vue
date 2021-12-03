@@ -23,23 +23,26 @@
 
             <v-row justify="start" class="">
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>About</b></p>
-                  <div v-for="(item,i) in config.footerConfig['About']" :key="i">
-                        <a :href="item.link" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Reality </b></p>
+                  <div>
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">Pàgina informaciòn</a><br>
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">Realitytecnologias@gmail.com</a><br>
                   </div>
               </v-col>
 
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Resources</b></p>
-                  <div v-for="(item,i) in config.footerConfig['Resources']" :key="i">
-                        <a :href="item.link" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Virtual/Aumentada</b></p>
+                  <div>
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">¿Què es?</a><br>
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">¿Què Aprender?</a><br>
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">¿Comò a cambiado nuestro entorno?</a><br>
                   </div>
               </v-col>
 
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Developer Console</b></p>
-                  <div v-for="(item,i) in config.footerConfig['Developer Console']" :key="i">
-                        <a :href="item.link" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>CREADORES</b></p>
+                  <div >
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">Maria Yuleydi Mondragòn Arriaga</a><br>
                   </div>
               </v-col>
             </v-row>
