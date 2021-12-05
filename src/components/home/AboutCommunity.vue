@@ -1,4 +1,4 @@
-<template>
+<!--  <template>
   <v-container fluid class="pa-0">
     <v-row align="center" class>
       <v-col cols="12" md="12" lg="12" sm="12" class="pa-0" style="color:white">
@@ -41,4 +41,4 @@ export default {
     ...mapState(["config"])
   }
 };
-</script>
+</script>-->

@@ -2,12 +2,21 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%">¿Que aprenderas?</p>
+        <p class="google-font mb-0" style="font-size:150%">QUÈ LEER</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Conoceras como es que se ha creado con el paso del tiempo la realidad virtual y la realidad aumentada, tambien sabras como, cuando y de quien fue esta idea, asi como en que nos beneficia toda esta inivaciòn ahora en nuestro mundo lleno de Tecnologìa.</p>
-        <p class="google-font" style="font-size:95%">About different Google technologies</p>
+        >¿Cómo están cambiando el mundo la realidad virtual y aumentada?</p>
+        <p
+          class="google-font mt-0"
+          style="font-size:95%"
+        >Marketing, automoción, medicina… son campos en los que ya influyen las realidades virtual y aumentada</p>
+         <p
+          class="google-font mt-0"
+          style="font-size:95%"
+        >¿Afectan la realidad virtual y aumentada a las relaciones sociales?</p>
+        <p class="google-font" style="font-size:95%">Aplicaciones acerca de Realidad Virtual & Aumentada</p>
+        
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
@@ -24,37 +33,39 @@
         <v-container fluid>
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-comment</v-icon>
+              <v-icon large style="font-size:300%">mdi-heart</v-icon>
               <p class="google-font mt-2" style="font-size:130%">Reality</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Bienvenidos a Reality donde encontraras informaciòn envace a como es que a cambiado nuestro mundo la Realidad Virtual/Realidad Aumentada.</p>
+              >Bienvenidos a Reality donde encontraras informaciòn embace a como es que a cambiado nuestro mundo la Realidad Virtual/Realidad Aumentada.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Comentarios</p>
+              <v-icon large style="font-size:300%"> mdi-image-filter-vintage</v-icon>
+              <p class="google-font mt-2" style="font-size:130%">COLOSSE</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Nos interesa saber mas: Registrate y comenta que es lo que ati te gustaria saber hacerca de los temas de Realidad Virtual/Realidad Aumentada.</p>
+              > Una experiencia de realidad virtual de historias cortas que responde a la mirada del jugador enraizado, avanzando la narrativa sin problemas.</p>
+              <a href="https://youtu.be/mMiC-K9Qi4w"><span style=color:#113CFC>Conocer màs</span></a>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Contacto</p>
+              <v-icon large style="font-size:300%">mdi-set-center-right</v-icon>
+              <p class="google-font mt-2" style="font-size:130%">YouVisit VR</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Contactanos!! <br>
-              Realitytecnologias@gmail.com</p>
+              >YouVisit es la mejor app que encontrarás en esto de combinar turismo y realidad virtual.</p>
+              <a href="https://youtu.be/QjatGzbM5Xk"><span style=color:#113CFC>Conocer màs</span></a>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Vive Experiencias Nuevas</p>
+              <v-icon large style="font-size:300%">mdi-windows</v-icon>
+              <p class="google-font mt-2" style="font-size:130%">Windows Mixed Reality</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Vive mas!! date un pequeño brack y empieza a interactuar con diferentes aplicaciònes que te ayudaran a llevar tu imaginaciòn al borde del limite. Imagina en grande!!</p>
+              >Windows Mixed Reality es un concepto de realidad mixta controlado por Microsoft para crear una plataforma unificada de aplicaciones y servicios. </p>
+              <a href="https://youtu.be/2MqGrF6JaOM"><span style=color:#113CFC>Conocer màs</span></a>
             </v-col>
           </v-row>
         </v-container>

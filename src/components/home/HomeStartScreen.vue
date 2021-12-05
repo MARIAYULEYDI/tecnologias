@@ -1,11 +1,11 @@
 <template>
   <v-container fluid class="py-0">
     <v-row align="center" class="fill-height">
-      <v-col md="3" sm="8" cols="12" class>
+      <v-col md="3" sm="10" cols="14" class>
         <v-img
           :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/Principal.png')"
           :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/Fondo.png')"
-          width="100%"
+          width="200%"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">
@@ -18,25 +18,41 @@
         <p
           class="google-font mb-1"
           :class="$vuetify.theme.dark == true?'dark-font-color':'light-font-color'"
-          style="font-weight: 350;font-size:230%"
+          style="font-weight: 350;font-size:240%"
         >
           <b>
             
-            <span style="color: #7267CB;">REALIDAD VIRTUAL Y REALIDAD AUMENTADA</span>
+            <span style="color: #06CDFF;">REALIDAD VIRTUAL </span> &
+            <span style="color: #8200FF;">REALIDAD AUMENTADA</span>
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">VR/AR</p>
-        <p class="google-font" style="font-size:100%">la Realidad Virtual permite crear un mundo virtual desde cero con todo lo que queramos, pero un mundo fantástico, lo que hace la Realidad Aumentada es agregar elementos virtuales (información adicional en forma de gráficos o imágenes) a nuestro entorno real.</p>
+        <p class="google-font mt-0 mb-0" style="font-size:200%">VR/AR</p>
+        <p class="google-font" style="font-size:110%">la Realidad Virtual permite crear un mundo virtual desde cero con todo lo que queramos, pero un mundo fantástico, lo que hace la Realidad Aumentada es agregar elementos virtuales (información adicional en forma de gráficos o imágenes) a nuestro entorno real.</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
-          <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
+          <span >
             <v-chip
-              :href="'https://twitter.com/hashtag/'+item"
+              :href="'#'+item"
               rel="noreferrer"
               target="_blank"
               small
               class="mr-1"
             >#Reality</v-chip>
+            <v-chip
+              :href="'#'+item"
+              rel="noreferrer"
+              target="_blank"
+              small
+              class="mr-1"
+            >#Tecnologìas</v-chip>
+            <v-chip
+              :href="'#'+item"
+              rel="noreferrer"
+              target="_blank"
+              small
+              class="mr-1"
+            >#Yuly</v-chip>
             <!-- &nbsp; -->
+            <!-- #Agregar Informaciòn; -->
           </span>
         </p>
 
@@ -66,6 +82,7 @@
     </v-row>
   </v-container>
 </template>
+<!-- Terminan el diseño Principal -->
 
 <script>
 import { mapState } from "vuex";
