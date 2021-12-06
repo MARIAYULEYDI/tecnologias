@@ -5,9 +5,9 @@
         <p
           class="google-font mb-1"
           style="font-size:110%"
-        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
-        <p class="google-font">{{data.shortDescription}}</p>
-        <p class="google-font mt-5">Questions? Please contact {{data.email}}</p>
+        >Hola bienven@ a nuestra pagina de contacto</p>
+        <p class="google-font">Por medio de este apartado podras contactarnos por medio de nuestros medios de comunicaciòn <br> de la misma manera podras seguirnos en nuestras redes sociales.</p>
+        <p class="google-font mt-5">¿Quieres contactarnos? Realitytecnologias@gmail.com</p>
         <CommunitySocialInfo :config="config"  class="mb-2"/>
         <span v-for="(item,i) in data.hashtags" :key="i" >
           <v-chip

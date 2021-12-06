@@ -15,9 +15,9 @@
             <v-col cols="12" md="12" lg="12" sm="12" class="mx-0 mt-0">
                 <p class="google-font mb-0" style="font-size:130%"></p>
             </v-col>
-            <v-col cols="6" md="3" xl="2" lg="2" sm="4"  v-for="(itemp,i) in partnersData" :key="i">
+            <!--<v-col cols="6" md="3" xl="2" lg="2" sm="4"  >
                 <div class="client-logo ma-0">
-                <a v-bind:href="itemp.socialLinks.linkedin" target="_blank">
+                <a v-bind:href="`#`" target="_blank">
                     <v-tooltip bottom>
                     <template v-slot:activator="{ on }">
                         <v-img
@@ -43,21 +43,21 @@
                     </v-tooltip>
                 </a>
                 </div>
-            </v-col>
+            </v-col>-->
         </v-row>
 
         <v-row align="center" justify="start" class="mt-0">
-            <v-col cols="12" md="12" lg="12" sm="12" class="mx-1 mt-5">
-                <p class="google-font mb-0" style="font-size:130%">Template Creator</p>
+            <v-col cols="14" md="12" lg="12" sm="12" class="mx-1 mt-5">
+                <p class="google-font mb-0" style="font-size:130%"></p>
             </v-col>
-            <v-col cols="6" md="3" lg="2" xl="2" sm="4">
+           <!-- <v-col cols="8" md="10" lg="12" xl="2" sm="4">
                 <div class="client-logo ma-0">
-                <a href="https://gdgjalandhar.com" target="_blank">
+                <a href="#" target="_blank">
                     <v-tooltip bottom>
                     <template v-slot:activator="{ on }">
                         <v-img
-                        :src="require('@/assets/img/dontremove/gdgjalandhar.webp')"
-                        :lazy-src="require('@/assets/img/dontremove/gdgjalandhar.webp')"
+                        :src="require('@/assets/img/dontremove/Fondo.png')"
+                        :lazy-src="require('@/assets/img/dontremove/Principal.png')"
                         class="white"
                         contain
                         style="height:4em"
@@ -78,9 +78,15 @@
                     </v-tooltip>
                 </a>
                 </div>
-            </v-col>
+            </v-col>-->
+            <v-col md="3" sm="8" cols="9" class>
+        <v-img
+          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/what-we-do/realidadAumentada.png')"
+          :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/Fondo.png')"
+          width="200%">
+        </v-img>
+      </v-col>
         </v-row>
-     
     </v-container>
 </template>
 
