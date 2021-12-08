@@ -35,6 +35,15 @@ export default new Vuex.Store({
       },
       {
         text: 'Realidad Aumentada',
+          to: '/about',
+          icon: 'mdi-comment-alert',
+          meta: {
+            showToolbar: true,
+            showBottomNav: true
+         },
+        },
+      {
+        text: 'xd',
         to: '/team',
         icon: 'mdi-account-settings',
         meta: {
@@ -51,15 +60,6 @@ export default new Vuex.Store({
           showBottomNav: false
         },
       },
-     // {
-        //text: 'About',
-        //to: '/about',
-       // icon: 'mdi-comment-alert',
-        //meta: {
-         // showToolbar: true,
-          //showBottomNav: true
-      //  },
-     // },
       {
         text: 'Contacto',
         to: '/contact',
@@ -69,24 +69,24 @@ export default new Vuex.Store({
           showBottomNav: true
         },
       },
-     // {
-       // text: 'Partners',
-       // to: '/partners',
-        //icon: 'mdi-currency-usd',
-        //meta: {
-         // showToolbar: false,
-         // showBottomNav: false
-       // },
-     // },
-     // {
-       // text: 'Blogs',
-        //to: '/blogs',
-        //icon: 'mdi-blogger',
-        //meta: {
-        //  showToolbar: true,
-         // showBottomNav: false
-       // },
-     // }
+     {
+       text: 'Partners',
+       to: '/partners',
+        icon: 'mdi-currency-usd',
+        meta: {
+          showToolbar: false,
+         showBottomNav: false
+        },
+      },
+      {
+        text: 'Blogs',
+        to: '/blogs',
+        icon: 'mdi-blogger',
+        meta: {
+         showToolbar: true,
+         showBottomNav: false
+        },
+     }
     ]
   },
   getters: {

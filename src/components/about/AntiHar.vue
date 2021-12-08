@@ -2,61 +2,61 @@
     <v-container fluid class="py-0 my-0 mt-5">
         <v-row class="py-0 my-0">
             <v-col md="12" sm="12" cols="12" class="py-0 my-0">
-                <h1 class="google-font mb-2">AntiHarassment Policy</h1>
+                <h1 class="google-font mb-2" style="Color: #6E3CBC;">¿COMO FUNCIONA LA REALIDAD AUMENTADA?</h1>
             </v-col>
         </v-row>
         <v-row class="py-0 my-0">
-            <v-col md="8" sm="12" cols="12" class="py-0 my-0">
+            <v-col md="11" sm="16" cols="19" class="py-0 my-0">
                 <p class="google-font" style="font-size:100%">
-                    <b style="font-size:120%;">Why do we have an official Anti-Harassment policy for {{data}} events?</b>
-
-                    <ul class="mt-2" style="font-size:100%">
-                        <li class="google-font">It sets expectations for behavior at the event. Simply having an anti-harassment policy can prevent harassment.</li>
-                        <li class="google-font">It encourages people to attend who have had bad experiences at other events</li>
-                        <li class="google-font">It gives event staff/volunteers instructions on how to handle harassment quickly, with minimum amount of disruption for the event.</li>
-                    </ul>
+                    <b style="font-size:130%;">  <h3 style="Color: #6E3CBC;"> Motor gráfico</h3> <br> <p> El motor gráfico se ocupa de renderizar los contenidos, típicamente en 3D, que muestra la realidad aumentada. La visión artificial se ocupa de que la ubicación de los contenidos  aumentados sea la correcta en la escena, para que la composición sea coherente y entendible por el usuario.
+                        <br> El principal elemento que interviene en la parte gráfica sería el renderizado. Este proceso  consiste en la interpretación por parte del ordenador de una escena de tres dimensiones para crear una imagen bidimensional.</p></b> 
                 </p>
-
+         <v-col md="5" sm="5" cols="13" class="py-0 my-0 hidden-sm-and-down">
+                <v-img
+                    :src="require('@/assets/img/dontremove/grafico.png')"
+                    width="90%"
+                    style="float:center"
+                >
+                    <template v-slot:placeholder>
+                        <v-row
+                        class="fill-height ma-0"
+                        align="rigth"
+                        justify="center"
+                        >
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                        </v-row>
+                    </template>
+                </v-img>
+            </v-col>
+            
                 <p class="google-font" style="font-size:110%">
-                    <b style="font-size:120%;">{{data}} is dedicated to providing a harassment-free event experience for everyone, regardless of: </b>
+                    <b style="font-size:130%;">Visión artificial</b>
 
-                    <ul class="mt-2" style="font-size:110%">
-                        <li class="google-font">Gender</li>
-                        <li class="google-font">Sexual Orientation</li>
-                        <li class="google-font">Disability</li>
-                        <li class="google-font">Gender Identity</li>
-                        <li class="google-font">Age</li>
-                        <li class="google-font">Race</li>
-                        <li class="google-font">Religion</li>
-                        <li class="google-font">Nationality</li>
-                    </ul>
+                     <v-row class="py-0 my-0">
+            <v-col md="15" sm="18" cols="22" class="py-0 my-0">
+                <p class="google-font" style="font-size:130%"> Las técnicas de visión artificial que se aplican en realidad aumentada son muy variadas, y se denominan principalmente tecnología de seguimiento o tracking. Existen muchos tipos, por ejemplo, el tracking facial, que permite detectar y seguir la posición de una cara, o el tracking de texturas, que posiciona una imagen de referencia en un sistema de coordenadas tridimensional. Las técnicas de visión artificial más novedosas que se emplean actualmente incorporan sensores activos basados en luz estructurada, tracking SLAM o tracking 3D. </p>
+            </v-col>
+            <v-col md="5" sm="5" cols="13" class="py-0 my-0 hidden-sm-and-down">
+                <v-img
+                    :src="require('@/assets/img/dontremove/Vision.png')"
+                    width="90%"
+                    style="float:center"
+                >
+                    <template v-slot:placeholder>
+                        <v-row
+                        class="fill-height ma-0"
+                        align="rigth"
+                        justify="center"
+                        >
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                        </v-row>
+                    </template>
+                </v-img>
+            </v-col>
+        </v-row>
 
-                    <span class="google-font" style="font-size:100%">The above is not an exhaustive list -- we do not tolerate harassment of event spanarticipants in any form. </span>
-                </p>
-
-                <p class="google-font" style="font-size:120%">Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be expelled from the event, and event banned from future events at the discretion of the event organizers/management. </p>
-
-                <p class="google-font" style="font-size:110%">Harassment includes (but is not limited to):
-                    <ul class="mt-2" style="font-size:100%">
-                        <li class="google-font">Offensive verbal comments related to gender, sexual orientation, disability, gender identity, age, race, religion</li>
-                        <li class="google-font">The use or display of sexual images in public spaces</li>
-                        <li class="google-font">Deliberate intimidation</li>
-                        <li class="google-font">Stalking</li>
-                        <li class="google-font">Harassing photography or recording</li>
-                        <li class="google-font">Sustained disruption of talks or other events</li>
-                        <li class="google-font">Inappropriate physical contact</li>
-                        <li class="google-font">Unwelcome sexual attention</li>
-                    </ul>
-                </p>
-
-                <p class="google-font" style="font-size:100%">Participants asked to stop any harassing behavior are expected to comply immediately. 
-                    <br><br>
-                    Exhibiting partners and guests are also subject to the anti-harassment policy. In particular, exhibitors and speakers should not use sexualized images, activities, or other material, or otherwise create a sexualized environment in their slide decks, exhibit material, exhibit staffing, promotional items or demo material. 
-                    <br><br>
-                    If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organizer or event volunteer immediately. Organizers and event volunteers may be identified by t-shirts or special badges/lanyards. Organizers will investigate the issue and take appropriate action. This may include helping participants contact venue security or local law enforcement, provide escorts, or otherwise assist these experiencing harassment to fell safe for the duration of the event. 
-                    <br><br>
-                    Though we hope that we never have to invoke this policy, we believe that having this document helps everyone think a little more about how their actions and words affect the whole community, as well as individuals in the community.
-                </p>
+                    <span class="google-font" style="font-size:130%">Para que una experiencia de realidad aumentada sea satisfactoria, debe funcionar en tiempo real. Esto quiere decir que cada uno de los dos módulos debe hacerlo también, y ambos son muy exigentes con el uso de los recursos computacionales. Así que el módulo de render debe ser capaz de pintar unas 60 imágenes por segundo, y el módulo de tracking de igual modo, ser capaz de analizar y extraer la información de 60 imágenes por segundo. </span>
+                </p> 
             </v-col>
             <v-col md="4" sm="4" cols="12" class="py-0 my-0 hidden-sm-and-down">
                

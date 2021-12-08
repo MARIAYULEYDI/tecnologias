@@ -5,8 +5,8 @@
         <v-row class>
           <v-col>
             <p class="google-font mb-0">
-              Here are the top 10 blogs/articles written by us. You can find more blogs/articles on
-              <a :href="blogURL" style="text-decoration:none" target="_blank">Medium</a>
+              La tecnología de realidad aumentada consiste en la integración de contenidos gráficos sobre una vista del mundo real. Para ello, se utilizan dispositivos como teléfonos móviles o gafas, que añaden la información virtual a la realidad que ve el usuario.
+              <a :href="blogURL" style="text-decoration:none" target="_blank">VR/AR</a>
             </p>
             <!-- {{blogsData.feed.link}} -->
           </v-col>
