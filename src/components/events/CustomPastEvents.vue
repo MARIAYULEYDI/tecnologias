@@ -25,25 +25,6 @@
                         ></v-text-field>
                     </v-col>
                 </v-row>
-                    
-                <v-data-table
-                    class="mt-3"
-                    :search="search"
-                    mobile-breakpoint="no"
-                    :headers="headers"
-                    :items="eventsData"
-                    :loading="isLoading"
-                    :items-per-page="5"
-                    :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
-                >   
-                    <template v-slot:item.name="{ item }">
-                        {{item.name}}
-                    </template>
-
-                    <template v-slot:item.action="{ item }">
-                        <a :href="'/events/'+item.id" target="_blank">See More</a>
-                    </template>
-                </v-data-table>
             </v-col>
         </v-row>
     </v-container>

@@ -14,7 +14,7 @@
                 <v-card-title
                   class="grey lighten-4 google-font"
                   primary-title
-                  :style="{'background-image':'url('+ require('@/assets/img/dontremove/spakerhead.jpg') +')'}"
+                  :style="{'background-image':'url('+ require('@/assets/img/dontremove/minion.jpg') +')'}"
                   style="background-position:right top;padding-top:20%;"
                 ></v-card-title>
                 <v-card-text class="px-5 pb-5" style="margin-top: -60px;">

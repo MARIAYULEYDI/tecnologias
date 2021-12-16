@@ -8,14 +8,14 @@
         class="pa-3"
       >
         <!-- <v-chip color="primary" label outlined class="mt-1 mx-0 mb-0" small>{{data.data.status}}</v-chip> -->
-        <p class="google-font mt-2 mb-0" style="font-size:90%">{{data.data.local_date | dateFilter}}</p>
-        <p class="google-font ma-0 mt-0" style="font-size:120%;">{{data.data.name |summary(20) }}</p>
-        <p class="google-font mt-0 mb-0" style="font-size:90%;">{{data.data.local_time}}</p>
+        <p class="google-font mt-2 mb-0" style="font-size:90%"></p>
+        <p class="google-font ma-0 mt-0" style="font-size:120%;"></p>
+        <p class="google-font mt-0 mb-0" style="font-size:90%;"></p>
         <p
           class="google-font mt-0 mb-0"
           style="font-size:90%;"
         >{{data.data.venue.name | summary(20) }}</p>
-        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">See More</p>
+        <p class="mb-0 mt-2 google-font" style="color:#1a73e8"></p>
       </div>
     </template>
     <v-card :class="this.$vuetify.theme.dark == true?'grey darken-3':'white'" v-if="dialog">

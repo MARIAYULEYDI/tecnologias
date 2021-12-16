@@ -38,8 +38,6 @@
             sm="4"
             cols="12"
             class="pa-2 text-center"
-            v-for="(item,i) in 3"
-            :key="i"
           >
             <v-skeleton-loader ref="skeleton" type="article" class="mx-auto elevation-1"></v-skeleton-loader>
           </v-col>
@@ -48,8 +46,7 @@
         <v-row v-if="blogsData.length <=0 && !loader" justify="center" align="center" class="py-3" :class="this.$vuetify.theme.dark == true?'black':''">
           <v-col  md="12" lg="12" sm="12" cols="12" class="text-center">
           <v-img
-            :src="require('@/assets/img/svg/DataNotFound.svg')"
-            :lazy-src="require('@/assets/img/svg/DataNotFound.svg')"
+            :src="require('@/assets/img/dontremove/Fondo.png')"
             width="15%"
             style="border-radius:8px;margin-left:auto;margin-right:auto"
           >

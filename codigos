@@ -25,4 +25,146 @@
 
 
 
-                
+                <p class="google-font px-2 mb-0" style="font-size:140%">
+                    <v-icon>mdi-calendar-blank</v-icon>
+                    <br />HOLA
+                  </p>
+
+                  <v-row v-if="notFoundUpcomingEventFlag" class="pa-2">
+                    <v-col
+                      md="3"
+                      lg="3"
+                      sm="6"
+                      cols="12"
+                      class="pa-3"
+                      :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
+                    >
+                      
+                    </v-col>
+                  </v-row>
+
+
+
+                  IMAGEN
+                  <v-row align="center" class="fill-height">
+                    <v-col md="3" sm="10" cols="14" class>
+                      <v-img
+                        :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/Principal.png')"
+                        :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/Fondo.png')"
+                        width="200%"
+                      >
+                        <template v-slot:placeholder>
+                          <v-row class="fill-height ma-0" align="center" justify="center">
+                            <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                          </v-row>
+
+
+                          TABLA 
+                          <v-data-table
+                          class="mt-3"
+                          :search="search"
+                          mobile-breakpoint="no"
+                          :headers="headers"
+                          :items="eventsData"
+                          :loading="isLoading"
+                          :items-per-page="5"
+                          :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
+                      >   
+                          <template v-slot:item.name="{ item }">
+                              {{item.name}}
+                          </template>
+      
+                          <template v-slot:item.link="{ item }">
+                              <a :href="item.link" target="_blank">See More</a>
+                          </template>
+                      </v-data-table>
+
+
+
+                      <v-data-table
+                    class="mt-3"
+                    :search="search"
+                    mobile-breakpoint="no"
+                    :headers="headers"
+                    :items="eventsData"
+                    :loading="isLoading"
+                    :items-per-page="5"
+                    :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
+                >   
+                    <template v-slot:item.name="{ item }">
+                        {{item.name}}
+                    </template>
+
+                    <template v-slot:item.action="{ item }">
+                        <a :href="'/events/'+item.id" target="_blank">See More</a>
+                    </template>
+                </v-data-table>
+
+                Flecha de busqueda
+                <v-col md="6" lg="6" sm="6" cols="12">
+                    <v-text-field
+                        flat
+                        v-model="search"
+                        solo-inverted
+                        hide-details
+                        prepend-inner-icon="mdi-search-web"
+                        label="Search"
+                        single-line
+                    ></v-text-field>
+                </v-col>
+
+
+                iconos redes 
+                <v-icon>mdi-github-circle</v-icon>
+        </v-btn>
+      </template>
+      <span>Github</span>
+    </v-tooltip>
+    <v-tooltip top v-if="checkExistance(config.generalConfig.socialLinks.linkedin,0)">
+      <template v-slot:activator="{ on }">
+        <v-btn
+          text
+          icon
+          v-on="on"
+          rel="noreferrer"
+          :href="config.generalConfig.socialLinks.linkedin"
+          target="_blank"
+          slot="activator"
+        >
+          <v-icon>mdi-linkedin</v-icon>
+        </v-btn>
+      </template>
+      <span>Linkedin</span>
+    </v-tooltip>
+    <v-tooltip top v-if="checkExistance(config.generalConfig.socialLinks.youtube,0)">
+      <template v-slot:activator="{ on }">
+        <v-btn
+          text
+          icon
+          v-on="on"
+          rel="noreferrer"
+          :href="config.generalConfig.socialLinks.youtube"
+          target="_blank"
+          slot="activator"
+        >
+        <v-icon>mdi-medium</v-icon>
+        </v-btn>
+      </template>
+      <span>Medium</span>
+    </v-tooltip>
+    <v-tooltip top v-if="checkExistance(config.generalConfig.socialLinks.medium,0)">
+        <template v-slot:activator="{ on }">
+          <v-btn
+            text
+            icon
+            v-on="on"
+            rel="noreferrer"
+            :href="config.generalConfig.socialLinks.medium"
+            target="_blank"
+            slot="activator"
+          >
+            <v-icon>mdi-medium</v-icon>
+          </v-btn>
+        </template>
+        <span>Medium</span>
+      </v-tooltip>

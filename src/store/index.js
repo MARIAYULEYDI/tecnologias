@@ -43,20 +43,20 @@ export default new Vuex.Store({
          },
         },
       {
-        text: 'xd',
-        to: '/team',
+        text: 'Equipo',
+       to: '/team',
         icon: 'mdi-account-settings',
         meta: {
           showToolbar: true,
           showBottomNav: true
         },
-      },
+     },
       {
         text: 'Galeria',
         to: '/speakers',
         icon: 'mdi-assistant',
         meta: {
-          showToolbar: true,
+         showToolbar: true,
           showBottomNav: false
         },
       },
@@ -83,7 +83,7 @@ export default new Vuex.Store({
         to: '/blogs',
         icon: 'mdi-blogger',
         meta: {
-         showToolbar: true,
+        showToolbar: true,
          showBottomNav: false
         },
      }
